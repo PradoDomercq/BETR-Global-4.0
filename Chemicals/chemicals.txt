@@ -1,0 +1,38 @@
+#	Database	of	Chemicals																						
+#	commentline	sstart	with	#'																					
+#	Comments	must	form	continuous	block	at	the	beginning	of	the	file														
+#	The	last	comment	line	is	not	really	a	comment.	It	containes	the	names												
+#	of	the	variables	used	in	the	code.	The	data	has	to	start	in	the	following	line.									
+#																									
+#																									
+#	Parameters:																								
+#																									
+#	ID	:	unique	database	identifier																				
+#	T0	:	standard	temperature	(K)																				
+#	molmass	:	molecular	mass	(g/mol)																				
+#	logKaw	:	partitioning	coefficient	air-water																				
+#	logKow	:	partitioning	coefficient	octanol-water																				
+#	logKoa	:	partitioning	coefficient	octanol-air																				
+#	halflife_air	(h)																							
+#	halflife_finepar	(h)																							
+#	halflife_coarsepar	(h)																							
+#	halflife_veg	(h)																							
+#	halflife_freshwater	(h)																							
+#	halflife_ocean	(h)																							
+#	halflife_soil	(h)																							
+#	halflife_sediment	(h)																							
+#	DUoa	:	internal	energy	of	phase	change	octanol-air	(J/mol)																
+#	DUow	:	internal	energy	of	phase	change	octanol-water	(J/mol)																
+#	EA_air	:	activation	energy	in	air	(J/mol)																		
+#	EA_finepar	:	activation	energy	in	fine	particle	(J/mol)																	
+#	EA_coarsepar	:	activation	energy	in	coarse	particle	(J/mol)																	
+#	EA_veg	:	activation	energy	in	vegetation	(J/mol)																		
+#	EA_freshwater	:	activation	energy	in	freashwater	(J/mol)																		
+#	EA_ocean	:	activation	energy	in	ocean	water	(J/mol)																	
+#	EA_soil	:	activation	energy	in	soil	(J/mol)																		
+#	EA_sediment	:	activation	energy	in	sediment	(J/mol)																		
+#	notes	:	description																						
+#																									
+#ID	Name	T0	molmass	logKaw	logKow	logKoa	halflife_air	halflife_finepar	halflife_coarsepar	halflife_veg	halflife_freshwater	halflife_ocean	halflife_soil	halflife_sediment	DUoa	DUow	EA_air	EA_finepar	EA_coarsepar	EA_veg	EA_freshwater	EA_ocean	EA_soil	EA_sediment	notes
+1	BDE-209	298.15	959.2	-4.81	9.97	16.8	7632	7632	7632	38000	38000	38000	76000	228000	-145000	-80000	10000	110000	110000	20000	20000	20000	20000	20000	
+2	D5	298.15	370.77	3.13	8.03	5.07	102	102	102	1704	1704	1704	53520	53520	-53162.72656	-20000	3341	110000	110000	20000	20000	20000	20000	20000	
