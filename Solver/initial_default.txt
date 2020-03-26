@@ -1,0 +1,10 @@
+## inital conditions for BETR-Research
+## first column: region-id
+## second column: compartment-id
+## third column: amount in mol
+## if this file contains no values, an uncontaminated environment at t=0 is assumed.
+##
+#53 6 1e-6
+#54 6 1e-6
+#62 6 1e-6
+#63 6 1e-6

@@ -1,0 +1,13 @@
+# stepping.txt connects period and step (usually year and month)
+# to an actual time-offset (from t0).
+#
+# The format is as whitespace-seperated list of:
+# duration(hours)_of step_1 duration_of_step2 ...... duration_of_last_step
+#
+# The typical (dynamic) BETR-Global entry would be
+# 730 730 730 730 730 730 730 730 730 730 730 730
+#
+# For steady-state evaluations of the model, this file is not used.
+# 
+#
+730 730 730 730 730 730 730 730 730 730 730 730
