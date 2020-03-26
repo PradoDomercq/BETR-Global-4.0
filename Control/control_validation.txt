@@ -1,0 +1,13 @@
+# File with options for a BETR-Research model
+# Format:
+# 	comment-lines start with '#'
+#	first column: option_name
+#	second column: option_value
+#	delimiter: whitespace
+#
+# degradation of substance sorbed to aerosols ?
+# aerosoldeg	0
+aerosoldeg	1
+dumpDmatrices	1
+dumpDmatricesTxt 1
+secondarySupr 0

@@ -1,0 +1,16 @@
+# File with options for a BETR-Research model
+# Format:      
+#  comment-lines start with   
+# first column: option_name    
+# second column: option_value    
+# delimiter: whitespace     
+#       
+# degradation of substance sorbed to aerosols ?
+aerosoldeg 0      
+# make D-matrix output in 2 different formats
+dumpDmatrices 0      
+dumpDmatricesTxt 1      
+# suppress secondary emissions    
+secondarySupr 0      
+# use plowing enhancement    
+plowingEnhance 1      
