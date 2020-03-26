@@ -1,0 +1,46 @@
+#              
+# intercomp_default.txt contains the processes considered by the model.      
+# Processes can be commented out and new processes can be added.   
+#              
+# Lines starting with '''''''#''''''' are comments. Lines are either comments or data.  
+# Beware of empty lines (particularly at the end of the file) !  
+#              
+# The first column contains the name of the process. This string has to be
+# valid as function-name in Python (starts with letter  contains letters   
+# numbers  underscores).           
+#              
+# The following columns contain a list of the compartments that need   
+# to be present to consider that process.       
+#              
+#process_name compartments             
+betr_degradation 1 2 3 4 5 6 7       
+betr_advectiveloss 1 5 6 7          
+betr_air1_air2_mix 1 2            
+betr_air2_veg_diff 2 3            
+betr_air2_veg_drydep 2 3            
+betr_air2_veg_dissolution 2 3            
+betr_air2_veg_wetparticle 2 3            
+betr_air2_freshwater_diff 2 4            
+betr_air2_freshwater_drydep 2 4            
+betr_air2_freshwater_dissolution 2 4            
+betr_air2_freshwater_wetparticle 2 4            
+betr_air2_ocean_diff 2 5            
+betr_air2_ocean_drydep 2 5            
+betr_air2_ocean_dissolution 2 5            
+betr_air2_ocean_wetparticle 2 5            
+betr_air2_soil_diff 2 6            
+betr_air2_soil_drydep 2 6            
+betr_air2_soil_dissolution 2 6            
+betr_air2_soil_wetparticle 2 6            
+betr_vegetation_soil_litter 3 6            
+betr_freshwater_ocean_runoff 4 5            
+betr_ocean_sinkflux 5             
+betr_freshwater_sediment_diff 4 7            
+betr_freshwater_sediment_deposit 4 7            
+betr_ocean_air_resusp 5 2            
+betr_soil_air_resusp 6 2            
+betr_soil_veg_rootuptake 6 3            
+betr_soil_freshwater_runoff 6 4            
+betr_soil_freshwater_erosion 6 4            
+betr_sediment_freshwater_resusp 7 4            
+betr_intermittent_rain 2 3 4 5 6         
